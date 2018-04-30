@@ -6,7 +6,6 @@
     "npm": "^6.0.0",
     "react": "^16.3.2",
     "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.3.2",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -17,6 +16,8 @@
   },
   "devDependencies": {
     "enzyme": "^3.3.0",
-    "jest-cli": "^20.0.4"
+    "jest-cli": "^20.0.4",
+    "react-dom": "^16.3.2",
+    "react-test-renderer": "^16.3.2"
   }
 }
