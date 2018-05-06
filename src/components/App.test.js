@@ -9,5 +9,5 @@ it ('renders correctly', () => {
 });
 
 it ('initialises the `state` with an empty list of gifts', () => {
-  expect(app.state().gifts.toEqual([]));
+  expect(app.state().gifts).toEqual([]);
 });
