@@ -1,4 +1,4 @@
-import requestAnimationFrame from './tempPollyfills';
+import requestAnimationFrame from './tempPolyfills.js';
 import { configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
