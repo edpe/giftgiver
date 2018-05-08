@@ -21,12 +21,18 @@ class Gift extends Component {
             </FormGroup>
             <FormGroup>
               <ControlLabel>Present</ControlLabel>
-                <FormControl
-                className='input-present'
-                onChange={ event => this.setState({ present: event.target.value })}
-                />
-              </FormGroup>
+              <FormControl
+              className='input-present'
+              onChange={ event => this.setState({ present: event.target.value })}
+              />
+            </FormGroup>
           </Form>
+          <Button
+            className='btn-remove'
+            onClick={() => this.props.removeGift(this.props.gift.id)}
+            >
+            Remove Gift
+          </Button>
       </div>
     );
   }

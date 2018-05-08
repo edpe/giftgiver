@@ -47,7 +47,8 @@ describe('Gift', () => {
       gift.find('.btn-remove').simulate('click')
     });
 
-    it('calls the removeGift callback', () => {});
-    expect(mockRemove).toHaveBeenCalledWith(id);
+    it('calls the removeGift callback', () => {
+      expect(mockRemove).toHaveBeenCalledWith(id);
+    });
   });
 });
