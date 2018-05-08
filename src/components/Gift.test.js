@@ -27,7 +27,7 @@ describe('Gift', () => {
   });
 
   describe('when typing into the present input', () => {
-    const person = 'Ferrero Rocher';
+    const present = 'Ferrero Rocher';
     beforeEach(() => {
       gift
         .find('.input-present')
