@@ -24,7 +24,7 @@ class App extends Component {
     return (
       <div>
         <h2>Gift Giver</h2>
-        <Button className='btn-add' onClick={this.addGift}>Add Gift</Button>
+        <Button className='btn-add' onClick={this.addGift }>Add Gift</Button>
         </div>
     )
   }
