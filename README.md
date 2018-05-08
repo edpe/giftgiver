@@ -33,4 +33,4 @@ See test coverage:
 ```
 npm test -- --coverage
 ```
-![Gift Giver](https://ibb.co/buEpYn)
+![Gift Giver](https://github.com/edpe/giftgiver/public/resources/images/giftgiver-screenshot.png)
